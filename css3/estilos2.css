@@ -83,7 +83,7 @@ progress{
 	header nav{
 		width: 80%;
 		height: calc(100% -80);
-		left: 100%;
+		
 		margin: 0;
 		position: fixed;
 	}
