@@ -19,7 +19,7 @@
 				<li><a href="temperatura.php"><span class="icon-chevron-with-circle-right"></span> TEMPERATURA</a></li>
 				<li><a href="presion.php"><span class="icon-chevron-with-circle-right"></span> PRESIÓN</a></li>
 				<li><a href="medico.php"><span class="icon-chevron-with-circle-right"></span> MÉDICO</a></li>
-				<li><a href="index.php"><span class="icon-chevron-with-circle-right"></span> CERRAR SESIÓN</a></li>
+				<li><a href="index.html"><span class="icon-chevron-with-circle-right"></span> CERRAR SESIÓN</a></li>
 			</ul>
 		</nav>
 	</header>
