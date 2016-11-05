@@ -11,7 +11,7 @@
 <body>
 	<header>
 		<div class="menu_bar">
-			<a href="temperatura1.html" class="bt-menu"><span class="icon-list"></span> Menu</a>
+			<a href="medico.html" class="bt-menu"><span class="icon-list"></span> Menu</a>
 		</div>
 		<nav>
 			<ul>
@@ -22,16 +22,19 @@
 				<li><a href="index.html"><span class="icon-chevron-with-circle-right"></span> CERRAR SESIÓN</a></li>
 			</ul>
 		</nav>
-	</header>
+	</header>; ?> 
+	
 	<section class="sect1">
-		<h3 class="cen">Temperatura</h3>
-		<br>
-		<div class="cen">
-			<img src="img/temp.jpg">
-		</div>
-		<br>
-		<button class="img_perfil" type="submit">Detalles</button> <br>
-		<button class="img_perfil" type="submit">Historial</button> <br>
+		 <h3 class="cen">Medico</h3>
+		 <form class="cen" method="post" action="">
+		 	<input class="input-top" type="text" name="nombre" placeholder="Nombre*">
+			<input class="input-top" type="text" name="apellidos" placeholder="Apellidos*">
+			<input class="input-top" type="text" name="cedula" placeholder="Cedula*">
+			<input class="input-top" type="text" name="especialidad" placeholder="Especialidad*">
+			<input class="input-top" type="text" name="telefonos" placeholder="Telefonos con lada*">
+			<input class="input-top" type="text" name="email" placeholder="E-mail*">
+			<input id="boton-top" class="boton" type="submit" value="Guardar">
+		</form>
 	</section>
 	<script src="http://code.jquery.com/jquery-latest.js" ></script>
 	<script src = "js/javaScript.js"></script>
